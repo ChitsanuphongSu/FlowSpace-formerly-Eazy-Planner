@@ -148,7 +148,9 @@ export default function ScheduleGrid({ onClickSlot, onClickItem }) {
                 background: isToday
                   ? 'var(--color-today-bg)'
                   : 'var(--color-bg)',
-                position: 'relative',
+                position: 'sticky',
+                top: 0,
+                zIndex: 5,
               }}>
                 {DAYS_SHORT[dayIndex]}
                 {isToday && (

@@ -302,7 +302,7 @@ export default function TodoItem({
                   justifyContent: 'center',
                   padding: 0,
                   borderRadius: '10px',
-                  color: '#FFFFFF', // Force White for maximum contrast
+                  color: 'var(--color-text-secondary)',
                   overflow: 'visible'
                 }}
               >
