@@ -64,7 +64,7 @@ export default function LoginPage() {
         <p style={{
           color: 'var(--color-text-muted)',
           marginBottom: '2rem',
-        }}>ลงชื่อเข้าใช้เพื่อจัดการชีวิตให้เป็นระบบ</p>
+        }}>เพิ่มความโปรดักทีฟโดยไร้ความกดดัน</p>
 
         {error && (
           <div style={{
